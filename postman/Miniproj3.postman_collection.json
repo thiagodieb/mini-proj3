@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "4071e193-6fe1-43e3-96f0-8afa3e88861c",
+		"name": "Miniproj3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add experts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"id\": 5,\r\n    \"categoria\": \"Venddor\",\r\n    \"nome\": \"tiago\",\r\n    \"nivel\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "immense-worried-geometry.glitch.me/experts/",
+					"host": [
+						"immense-worried-geometry",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"experts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List experts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"id\": 5,\r\n    \"categoria\": \"Venddor\",\r\n    \"nome\": \"tiago\",\r\n    \"nivel\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "immense-worried-geometry.glitch.me/experts/",
+					"host": [
+						"immense-worried-geometry",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"experts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add sponsors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"id\": 5,\r\n    \"nome\": \"tiago\",\r\n    \"valor\": 400.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "immense-worried-geometry.glitch.me/sponsors/",
+					"host": [
+						"immense-worried-geometry",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"sponsors",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List sponsors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"id\": 5,\r\n    \"nome\": \"tiago\",\r\n    \"valor\": 400.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "immense-worried-geometry.glitch.me/sponsors/",
+					"host": [
+						"immense-worried-geometry",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"sponsors",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
